@@ -30,8 +30,8 @@
                     break;
         }
 
-            if (human == 1 && CI == 2) {
-                System.out.println("Computer won!");
+if (human == 1 && CI == 2) {
+System.out.println("Computer won!");
             } else if (human == 2 && CI == 3) {
                 System.out.println("Computer won!");
             } else if (human == 3 && CI == 1) {
@@ -39,11 +39,11 @@
             } else if (human>3) {
                 System.out.println("It is an invalid input game cant be proceed further5");
 
-            } else {
-                System.out.println("Congrats! you won the match");
+} else {
+System.out.println("Congrats! you won the match");
 
-            }
+ }
         }
 
-    }
+}
     }
